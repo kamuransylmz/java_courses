@@ -1,0 +1,16 @@
+package chapter10;
+
+public class Fruit {
+    public double calories;
+
+    public double getCalories() {
+        return calories;
+    }
+
+    public void setCalories(int calories) {
+        this.calories = calories;
+    }
+    public void makeJuice(){
+        System.out.println("Juice is made ");
+    }
+}
